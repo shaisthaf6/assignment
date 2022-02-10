@@ -1,14 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import './styles.css';
-import Content  from './Content.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-// display
 
+
+
+
+function Student(){
+    let name='Shayu';
+    return <h1>Welcome all: {name}</h1>;
+}
 ReactDOM.render(
-  <>
-  <Content />
-  </>,
-  document.getElementById('root')
-)
-  
+    <>
+    <Student />
+    </>,
+);
